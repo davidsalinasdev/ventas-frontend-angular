@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## CONFIGURACIÓN INICIAL PARA ANGULAR 2024
+
+## 1.- Paquetes de dotenv para crear variables de entorno PARA DESARROLLO
+
+npm install dotenv --save-dev
+
+## 2.- Crear y configurar script para los enviroments
+
+    "start": "npm run envs && ng serve -o",
+
+## 3.- Crear .env para manejo de variables globales
+
+En el directoro principal crear un archivo .env y .env.template
+
+## 4 .- Configurar el template adminPRO en angular
